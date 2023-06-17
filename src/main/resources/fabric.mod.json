@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "untoggle-sprint",
+  "version": "${version}",
+  "name": "Untoggle Sprint",
+  "description": "Make sure you have sprinting set to Untoggle.",
+  "authors": [
+    "Andy Russo"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/untoggle-sprint",
+    "sources": "https://github.com/AndyRusso/untoggle-sprint",
+    "issues": "https://github.com/AndyRusso/untoggle-sprint/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "untoggle-sprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "minecraft": ">=1.19"
+  }
+}
